@@ -1,0 +1,83 @@
+/* Estilos específicos para a página de contato */
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #333; /* Cor de fundo opcional */
+    border-radius: 8px;
+}
+
+.contato h3 {
+    color: #00CED1; /* Ajuste a cor conforme o esquema de cores */
+    margin-bottom: 20px;
+    font-size: 2rem; /* Aumenta o tamanho da fonte do título */
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contato label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte dos rótulos */
+}
+
+.contato input[type="text"],
+.contato input[type="email"],
+.contato textarea {
+    width: 95%; /* Ajuste conforme necessário */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px; /* Adiciona um pouco de preenchimento interno */
+    font-size: 1rem; /* Define o tamanho da fonte dos campos de entrada */
+}
+
+.contato input[type="text"],
+.contato input[type="email"] {
+    height: 40px; /* Ajuste a altura conforme necessário */
+}
+
+.contato textarea {
+    height: 150px; /* Ajuste a altura do textarea conforme necessário */
+}
+
+.contato input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #00CED1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem; /* Ajusta o tamanho da fonte do botão de envio */
+}
+
+.contato input[type="submit"]:hover {
+    background-color: #00B2B2;
+}
+
+/* Efeito de hover nos links */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00CED1; /* Cor ciano no hover */
+    text-decoration: underline; /* Sublinhado no hover */
+}
+
+footer .copyright2 {
+    text-align: center;
+    font-size: 14px;
+    color: #00CED1; /* Cor do texto de copyright */
+    margin-top: -20px; /* Reduz espaço entre os links e o texto de copyright */
+}

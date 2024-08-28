@@ -1,0 +1,29 @@
+/* Estilo do body */
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.flex-portfolio {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+body h1 {
+    color: #00CED1;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}

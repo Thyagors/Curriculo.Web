@@ -1,0 +1,107 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00CED1; /* Cor ciano no hover */
+    text-decoration: underline; /* Sublinhado no hover */
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #00CED1;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: #00CED1;
+}
+
+h2 {
+    color: #00CED1;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: #00CED1;
+} 
+
+main p {
+    font-size: 1.125rem;
+}
+main p + p {
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px; /* Espaço adicional na parte superior do rodapé */
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os ícones */
+    margin-bottom: 20px; /* Espaço entre os links e o texto de copyright */
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px; /* Espaço adicional na parte superior do rodapé */
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os ícones */
+    margin-bottom: 5px; /* Reduz espaço entre os links e o texto de copyright */
+}
+
+footer a {
+    margin: 0;
+    text-align: center;  
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+footer .copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #00CED1; /* Cor do texto de copyright */
+    margin-top: 5px; /* Reduz espaço entre os links e o texto de copyright */
+}
